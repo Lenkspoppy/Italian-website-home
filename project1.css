@@ -639,8 +639,48 @@ body{
 }
 
 .footer{
-    background-color: aqua;
+    
+    position: relative;
+    top: 280px;
+    margin: auto;
+    height: 300px;
+    color: whitesmoke;
+    
     
 }
+
+.in-footer {
+    position:absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    left: 450px;
+    margin: 0;
+
+}
+
+.in-footer h2{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 43px;
+    margin: 0;
+    margin-bottom:10px;
+    margin-top: 40px;
+    
+}
+
+.in-footer p{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0;
+    width: 500px;
+    
+}
+
+
+
+
 
 
